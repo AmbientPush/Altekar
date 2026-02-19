@@ -1,0 +1,11 @@
+color: FFFFFF //TODO
+
+explosiveness: 0
+flammability: 0
+heatCapacity: 0.7
+viscosity: 0.5
+temperature: 0.5
+blockReactive: false
+gas: false
+
+research: core-shard

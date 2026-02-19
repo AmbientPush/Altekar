@@ -1,0 +1,16 @@
+name: ultrasand
+displayName: UltraSand
+author: "Owner: Ambient Push and CY4NIDE"
+description: No idea lol
+version: 0
+minGameVersion: 154
+subtitle: null
+repo: AmbientPush/UltraSand
+dependencies: [
+  "hjsonpp"
+]
+
+
+ContentOrder: [
+
+]

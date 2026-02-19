@@ -1,0 +1,13 @@
+type: GenericCrafter
+size: 3
+health: 230
+consumes: {
+  items: [
+    dormant-tesseract/1
+  ]
+  power: 0.5
+}
+outputItem: tesseract/1
+requirements: [
+  synthesised-iron/35
+]

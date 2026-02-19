@@ -1,0 +1,11 @@
+color: FFFFFF //TODO
+
+explosiveness: 0.25
+flammability: 0.1
+heatCapacity: 0
+viscosity: 0.5
+temperature: 0.35
+blockReactive: false
+gas: true
+
+research: substance

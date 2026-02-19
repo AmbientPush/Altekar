@@ -1,0 +1,19 @@
+type: AdvancedConsumeGenerator
+health: 150
+//TODO - uhhhhh?????
+size: 2
+category: power
+requirements: [
+  synthesised-iron/25
+]
+
+outputItems: [
+  dormant-tesseract/1
+]
+consumes: {
+  items: [
+    tesseract/1
+  ]
+}
+powerProduction: 2
+itemDuration: 60

@@ -1,0 +1,17 @@
+type: AttributeCrafter
+size: 2
+health: 145
+category: production
+squareSprite: false
+attribute: substance
+baseEfficiency: 0
+minEfficiency: 0.5
+boostScale: 0.25
+outputLiquid: substance/0.5
+craftTime: 150
+consume: {
+  power: 0.2
+}
+requirements: [
+  synthesised-iron/12
+]

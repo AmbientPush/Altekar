@@ -1,0 +1,24 @@
+type: BeamNode
+health: 45
+fogRadius: 2
+range: 11
+size: 1
+researchCost: [
+  synthesised-iron/3
+]
+category: power
+//research: 04d-01-pressure-generator
+requirements: [
+  synthesised-iron/4
+]
+laserColor1: CEADEEFF
+laserColor2: 6A4291FF
+consumes: {
+  power: {
+    amount: 0
+    capacity: 500
+    buffered: true
+  }
+}
+consumesPower: true
+outputsPower: true
