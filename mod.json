@@ -1,11 +1,11 @@
-name: ultrasand
-displayName: UltraSand
+name: altekar
+displayName: Altekar
 author: "Owner: Ambient Push and CY4NIDE"
 description: No idea lol
 version: 0
 minGameVersion: 154
 subtitle: null
-repo: AmbientPush/UltraSand
+repo: AmbientPush/Altekar
 dependencies: [
   "hjsonpp"
 ]
