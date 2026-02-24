@@ -1,4 +1,4 @@
-type: AdvancedConsumeGenerator
+type: AdvancedHeaterGenerator
 health: 150
 //TODO - uhhhhh?????
 size: 2
@@ -17,3 +17,29 @@ consumes: {
 }
 powerProduction: 2
 itemDuration: 60
+heatOutput: 25
+warmupRate: 0.15
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+      rotOffset: -1
+    }
+    {
+      type: DrawHeatOutput
+    }
+    {
+      type: DrawHeatOutput
+      rotOffset: 1
+    }
+    {
+      type: DrawHeatOutput
+      rotOffset: 2
+    }
+  ]
+}

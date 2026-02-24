@@ -1,0 +1,9 @@
+type: LogicBlock
+category: logic
+research: core-shard
+requirements: [
+  copper/150
+]
+instructionsPerTick: 10
+size: 2
+health: 600
