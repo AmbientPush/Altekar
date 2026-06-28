@@ -1,0 +1,13 @@
+type: GenericCrafter
+size: 3
+health: 160
+consumes: {
+  liquids: [
+    dormant-substance/1
+    brine/0.5
+  ]
+}
+requirements: [
+  iron/35
+]
+outputLiquid: substance/0.75

@@ -1,0 +1,20 @@
+type: mech
+
+
+
+outlineColor: 1A192D
+weapons: [
+  {
+    name: mech-t2-w
+    x: 0, shootX: 7.5
+    y: 0, shootY: 4
+    reload: 30
+    top: false
+    bullet: {
+      type: ArtilleryBulletType
+      range: 96
+      speed: 3
+      lifetime: 192
+    }
+  }
+]

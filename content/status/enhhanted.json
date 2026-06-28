@@ -1,0 +1,7 @@
+name: "Mana Enchanted"
+color: "aaffcc"
+damageMultiplier: 1.4
+reloadMultiplier: 1.35
+speedMultiplier: 1.15
+healthMultiplier: 1.1
+effect: healWave

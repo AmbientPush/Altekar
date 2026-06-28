@@ -1,0 +1,6 @@
+type: Floor
+variants: 2
+emitLight: true
+lightColor: C1DCF6FF
+lightRadius: 32
+blendGroup: sunken-ruins-floor

@@ -1,0 +1,8 @@
+type: DuctBridge
+health: 150
+range: 8
+transportTime: 5
+requirements: [ iron/4 ]
+researchCost: [ iron/12 ]
+research: shaft-junction
+isDuct: true

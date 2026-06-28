@@ -1,0 +1,216 @@
+type: ItemTurret
+size: 3
+consumes: {
+  liquid: substance/0.25
+}
+reload: 8
+//shootWarmupSpeed: 2
+targetInterval: 1
+range: 360
+shake: 1
+targetGround: false
+ammoTypes: {
+  iron: {
+    type: BasicBulletType
+    pierceCap: 2
+    pierce: true
+    pierceBuilding: false
+    pierceArmor: false
+    speed: 16
+    lifetime: 22.5
+    maxRange: 360
+    damage: 75
+    width: 8
+    height: 24
+    collidesGround: false
+    frontColor: EEF5FCFF
+    backColor: 444666FF
+    shootEffect: [
+      {
+        type: RadialEffect
+        rotationSpacing: 40
+        rotationOffset: 340
+        amount: 2
+        effect: {
+          type: ParticleEffect
+          colorFrom: FFFFFFFF
+          colorTo: FFFFFFFF
+          cone: 2
+          interp: exp10Out
+          lenFrom: 0
+          lenTo: 12
+          line: true
+          particles: 2
+          sizeFrom: 8
+          sizeTo: 2
+        }
+      }
+      {
+        type: ParticleEffect
+        colorFrom: FFFFFFFF
+        colorTo: FFFFFFFF
+        cone: 2
+        interp: exp10Out
+        lenFrom: 0
+        lenTo: 24
+        line: true
+        particles: 2
+        sizeFrom: 8
+        sizeTo: 2
+        offset: 0
+      }
+    ]
+    smokeEffect: "none" //shootSmallSmoke
+    hitEffect: [
+      {
+        type: RadialEffect
+        rotationSpacing: 40
+        rotationOffset: 340
+        amount: 2
+        effect: {
+          type: ParticleEffect
+          colorFrom: FFFFFFFF
+          colorTo: FFFFFFFF
+          cone: 2
+          interp: exp10Out
+          lenFrom: 0
+          lenTo: 12
+          line: true
+          particles: 2
+          sizeFrom: 8
+          sizeTo: 2
+        }
+      }
+      {
+        type: ParticleEffect
+        colorFrom: FFFFFFFF
+        colorTo: FFFFFFFF
+        cone: 2
+        interp: exp10Out
+        lenFrom: 0
+        lenTo: 24
+        line: true
+        particles: 2
+        sizeFrom: 8
+        sizeTo: 2
+        offset: 0
+      }
+      {
+        type: RadialEffect
+        rotationSpacing: 40
+        rotationOffset: 160
+        amount: 2
+        effect: {
+          type: ParticleEffect
+          colorFrom: FFFFFFFF
+          colorTo: FFFFFFFF
+          cone: 2
+          interp: exp10Out
+          lenFrom: 0
+          lenTo: 12
+          line: true
+          particles: 2
+          sizeFrom: 8
+          sizeTo: 2
+        }
+      }
+      {
+        type: ParticleEffect
+        offset: 180
+        colorFrom: FFFFFFFF
+        colorTo: FFFFFFFF
+        cone: 2
+        interp: exp10Out
+        lenFrom: 0
+        lenTo: 24
+        line: true
+        particles: 2
+        sizeFrom: 8
+        sizeTo: 2
+        offset: 0
+      }
+    ]
+  }
+}
+
+recoil: 0
+outlineRadius: 0
+drawer: {
+  type: DrawMulti
+  iconOverride: [
+    -icon
+  ]
+  drawers: [
+    {
+      //type: DrawRegion
+    }
+    {
+      type: DrawTurret
+      basePrefix: scissors-
+      parts: [
+        {
+          suffix: -body
+          layer: 55
+          turretHeatLayer: 55.05
+        }
+        {
+          suffix: -up
+          moveY: -1
+          progress: recoil
+          layer: 55.5
+          turretHeatLayer: 55.55
+          children: [
+            // Lufa 1
+            {
+              suffix: -barrel
+              x: 0
+              y: 0
+              moveX: 2.5
+              moveY: 1
+              progress: reload
+              layer: 55.3
+              turretHeatLayer: 55.35
+            }
+            // Lufa 2
+            {
+              suffix: -barrel
+              x: -2.5
+              y: 1
+              moveX: 2.5
+              moveY: 1
+              progress: reload
+              layer: 55.2
+              turretHeatLayer: 55.25
+            }
+            // Lufa 3
+            {
+              suffix: -barrel
+              x: 0
+              y: 2
+              moveX: 2.5
+              moveY: -1
+              progress: reload
+              layer: 55.1
+              turretHeatLayer: 55.15
+            }
+            // Lufa 4
+            {
+              suffix: -barrel
+              x: 2.5
+              y: 1
+              moveX: -2.5
+              moveY: -1
+              progress: reload
+              layer: 55.2
+              turretHeatLayer: 55.25
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+requirements: [
+  iron/500
+]

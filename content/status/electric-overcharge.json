@@ -1,0 +1,7 @@
+name: "Electric Overcharge"
+color: "#ffff00"
+reloadMultiplier: 1.5
+speedMultiplier: 1.2
+healthMultiplier: 0.85
+damageMultiplier: 1.1
+effect: shieldBreak

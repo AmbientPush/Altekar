@@ -1,0 +1,9 @@
+// Makes power from the Tesseract's presence
+type: ConsumeGenerator
+consume: {}
+powerProduction: 0.5
+requirements: [
+  copper/1
+]
+size: 3
+category: power

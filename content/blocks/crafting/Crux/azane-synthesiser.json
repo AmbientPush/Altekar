@@ -1,0 +1,15 @@
+type: GenericCrafter
+size: 2
+category: crafting
+squareSprite: false
+consumes: {
+  liquid: substance/0.25
+}
+outputLiquids: [
+  azane/0.5
+]
+requirements: [
+  iron/15
+  ionic-copper/25
+  steel/10
+]

@@ -1,0 +1,9 @@
+flammability: 0.1
+explosiveness: 0.25
+radioactivity: 0
+charge: 0
+hardness: 3
+color: 999B98FF
+alwaysUnlocked: false
+research: borane
+cost: 5

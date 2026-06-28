@@ -1,0 +1,28 @@
+type: ItemTurret
+size: 4
+consumes: {
+  liquid: entropy/0.25
+}
+reload: 8
+requirements: [
+  iron/150
+]
+ammoTypes: {
+  iron: {
+    type: BasicBulletType
+    pierceCap: 3
+    pierce: true
+    pierceBuilding: false
+    pierceArmor: true
+    speed: 16
+    lifetime: 30
+    maxRange: 360
+    damage: 75
+    width: 8
+    height: 24
+    collidesGround: false
+    frontColor: EEF5FCFF
+    backColor: 444666FF
+  }
+}
+outlineRadius: 0

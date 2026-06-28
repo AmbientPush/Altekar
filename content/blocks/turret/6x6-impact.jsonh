@@ -1,0 +1,17 @@
+type: PowerTurret
+size: 6
+shootY: 0
+range: 600
+shootType: {
+  type: LaserBulletType
+  length: 600
+  width: 6
+  shootEffect: [
+    hitFlamePlasma
+    lancerLaserShoot
+    lightningShoot
+  ]
+}
+requirements: [
+copper/1
+]

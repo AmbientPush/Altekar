@@ -1,0 +1,7 @@
+type: LiquidJunction
+category: liquid
+health: 45
+requirements: [ iron/4 ]
+researchCost: [ iron/8 ]
+research: funnel
+squareSprite: false

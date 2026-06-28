@@ -1,0 +1,35 @@
+type: AttributeCrafter
+consumes: {
+  items: [
+    tetra-c/3
+    red-matter/1
+  ]
+  liquids: [
+    substance/1
+    phoenix-ichor/0.5
+  ]
+}
+requirements: [
+  //TODO requirements
+  iron/250
+  ionic-copper/150
+  tetra-c/90
+  steel/120
+  enchanted-tetra-c/60
+  bloodwood/120
+]
+attribute: mana
+craftTime: 120
+size: 4
+health: 640
+category: crafting
+squareSprite: false
+baseEfficiency: 0
+minEfficiency: 0.01
+boostScale: 0.1111111111111
+outputItems: [
+  enchanted-tetra-c/2
+]
+outputLiquids: [
+  decay/0.25
+]

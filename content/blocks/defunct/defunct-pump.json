@@ -1,0 +1,20 @@
+type: Pump
+size: 2
+category: liquid
+squareSprite: false
+fogRadius: 2
+requirements: [
+  defunct-material/1
+]
+hasPower: true
+
+pumpAmount: 0.0555555555555
+consumes: {
+  power: 0.25
+  liquidFlammable: {
+    minFlammability: -1000
+    amount: 0
+    optional: true
+  }
+}
+conductivePower: true

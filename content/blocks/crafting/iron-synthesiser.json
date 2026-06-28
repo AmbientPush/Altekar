@@ -4,12 +4,13 @@ health: 120
 category: crafting
 squareSprite: false
 requirements: [
-  synthesised-iron/15
+  iron/15
+  ionic-copper/10
 ]
-craftTime: 120
+craftTime: 60
 craftEffect: none
 outputItems: [
-  synthesised-iron/1
+  iron/2
 ]
 consumes: {
   liquid: substance/0.1
@@ -17,3 +18,32 @@ consumes: {
 }
 outputLiquid: dormant-substance/0.1
 liquidOutputDirections: [ 1 ]
+
+drawer: [
+  {
+    type: DrawDefault
+  }
+  {
+    type: DrawLiquidRegion
+    drawLiquid: substance
+    liquid: substance
+    suffix: -substance
+  }
+  {
+    type: DrawLiquidRegion
+    drawLiquid: dormant-substance
+    liquid: dormant-substance
+    suffix: -dormant-substance
+  }
+  {
+    type: DrawSideRegion
+  }
+  {
+    type: DrawRegion
+    suffix: -glass
+  }
+]
+rotate: true
+quickRotate: true
+rotateDraw: false
+hasLiquids: true

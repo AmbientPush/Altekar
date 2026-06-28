@@ -1,0 +1,8 @@
+name: "Glacial Freeze"
+color: "88ddff"
+damage: 0.06
+speedMultiplier: 0.35
+reloadMultiplier: 0.55
+armorMultiplier: 1.25
+effect: freezing
+opposites: [melting]

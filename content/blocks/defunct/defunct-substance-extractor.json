@@ -1,0 +1,17 @@
+type: AttributeCrafter
+size: 3
+health: 145
+category: production
+squareSprite: false
+attribute: substance
+baseEfficiency: 0
+minEfficiency: 0.5
+boostScale: 0.1111111111111
+outputLiquid: substance/1
+craftTime: 60
+consume: {
+  power: 0.2
+}
+requirements: [
+  iron/12
+]

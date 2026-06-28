@@ -1,0 +1,147 @@
+type: mech
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+hovering: true
+omniMovement: true
+
+weapons: [
+  {
+    mirror: false
+    x: 8
+    y: 0
+    rotate: true
+    autoTarget: true
+    controllable: false
+    useAttackRange: false
+    baseRotation: -90
+    rotationLimit: 220
+    targetInterval: 20
+    targetSwitchInterval: 60
+    alternate: false
+    rotateSpeed: 360
+    shootCone: 0.25
+    continuous: true
+//    alwaysContinuous: true
+    shootSound: loopSmelter
+    shootSoundVolume: 0.5
+    initialShootSound: explosionArtilleryShockBig
+    reload: 90
+    bullet: {
+      type: ContinuousLaserBulletType
+      shake: 0
+      length: 480
+      width: 1
+      damage: 20
+      lifetime: 60
+      pierceCap: 1
+      colors: [
+        7382f088,
+        ffffff
+      ]
+      layer: 93
+      oscScl: 0
+      frontLength: 2
+      shootEffect: none
+      smokeEffect: none
+      hitEffect: [
+        {
+          line: true
+          length: 0
+          offset: 90
+          cone: 0
+//          region: diamond
+          particles: 1
+          lifetime: 25
+          colorTo: 90a2fc
+          sizeFrom: 20
+          sizeTo: 0
+        }
+        {
+          baseRotation: 180
+          line: true
+          particles: 4
+          cone: 45
+          length: -20
+          lifetime: 20
+          interp: pow2Out
+          sizeInterp: linear
+          lenFrom: 4
+          lenTo: 2
+          strokeFrom: 1
+          strokeTo: 0
+          colorTo: 7382f0
+        }
+      ]
+    }
+  }
+  {
+    mirror: false
+    x: -8
+    y: 0
+    rotate: true
+    autoTarget: true
+    controllable: false
+    useAttackRange: false
+    baseRotation: 90
+    rotationLimit: 220
+    targetInterval: 20
+    targetSwitchInterval: 60
+    alternate: false
+    rotateSpeed: 360
+    shootCone: 0.25
+    continuous: true
+//    alwaysContinuous: true
+    shootSound: loopSmelter
+    shootSoundVolume: 0.5
+    initialShootSound: explosionArtilleryShockBig
+    reload: 90
+    bullet: {
+      type: ContinuousLaserBulletType
+      shake: 0
+      length: 480
+      width: 1
+      damage: 20
+      lifetime: 60
+      pierceCap: 1
+      colors: [
+        7382f088,
+        ffffff
+      ]
+      layer: 93
+      oscScl: 0
+      frontLength: 2
+      shootEffect: none
+      smokeEffect: none
+      hitEffect: [
+        {
+          line: true
+          length: 0
+          offset: 90
+          cone: 0
+//          region: diamond
+          particles: 1
+          lifetime: 25
+          colorTo: 90a2fc
+          sizeFrom: 20
+          sizeTo: 0
+        }
+        {
+          baseRotation: 180
+          line: true
+          particles: 4
+          cone: 45
+          length: -20
+          lifetime: 20
+          interp: pow2Out
+          sizeInterp: linear
+          lenFrom: 4
+          lenTo: 2
+          strokeFrom: 1
+          strokeTo: 0
+          colorTo: 7382f0
+        }
+      ]
+    }
+  }
+]

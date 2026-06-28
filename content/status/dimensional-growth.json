@@ -1,0 +1,7 @@
+name: "Dimensional Growth"
+color: "bb99ff"
+healthMultiplier: 1.45
+speedMultiplier: 0.7
+damageMultiplier: 1.1
+reloadMultiplier: 0.85
+effect: bigShockwave

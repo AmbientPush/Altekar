@@ -1,0 +1,19 @@
+type: GenericCrafter
+size: 3
+category: crafting
+squareSprite: false
+consumes: {
+  power: 1
+  items: [
+    iron/2
+    tetra-c/1
+  ]
+}
+outputItems: [
+  steel/3
+]
+requirements: [
+  iron/20
+  ionic-copper/35
+]
+craftTime: 120

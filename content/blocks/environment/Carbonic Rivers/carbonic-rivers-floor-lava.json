@@ -1,0 +1,8 @@
+type: Floor
+variants: 1
+liquidDrop: lava
+cacheLayer: slag
+isLiquid: true
+attributes: {
+  heat: 2.5
+}

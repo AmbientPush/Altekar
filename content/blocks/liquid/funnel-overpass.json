@@ -1,0 +1,9 @@
+//og sprite by cy4, edited by Ambient
+type: DirectionLiquidBridge
+health: 150
+range: 8
+requirements: [ iron/6 ]
+researchCost: [ iron/12 ]
+research: funnel-junction
+squareSprite: false
+category: liquid

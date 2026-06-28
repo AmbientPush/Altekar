@@ -1,0 +1,5 @@
+name: "Fully Blinded"
+color: "#000000"
+disarm: true
+speedMultiplier: 0.15
+effect: [smoke,smoke]

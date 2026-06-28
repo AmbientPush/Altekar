@@ -1,0 +1,20 @@
+type: GenericCrafter
+size: 2
+health: 120
+category: crafting
+squareSprite: false
+requirements: [
+  iron/15
+  ionic-copper/10
+]
+craftTime: 120
+craftEffect: none
+outputItems: [
+  iron/1
+]
+consumes: {
+  liquid: substance/0.1
+  power: 0.25
+}
+outputLiquid: dormant-substance/0.1
+liquidOutputDirections: [ 1 ]

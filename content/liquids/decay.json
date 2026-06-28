@@ -1,0 +1,11 @@
+color: D06CFFFF
+
+explosiveness: 5
+flammability: 2.5
+heatCapacity: 0
+viscosity: 0.5
+temperature: 2.5
+blockReactive: true
+gas: true
+
+research: entropy

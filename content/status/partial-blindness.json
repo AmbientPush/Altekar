@@ -1,0 +1,5 @@
+name: "Partial Blindness"
+color: "ffffbb"
+disarm: true
+speedMultiplier: 0.25
+effect: smoke

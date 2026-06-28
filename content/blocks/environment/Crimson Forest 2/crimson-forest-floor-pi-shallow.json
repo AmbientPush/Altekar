@@ -1,0 +1,13 @@
+type: Floor
+speedMultiplier: 0.9
+variants: 3
+//drownTime: 135
+liquidDrop: phoenix-ichor
+liquidMultiplier: 1
+isLiquid: true
+cacheLayer: water
+albedo: 1
+supportsOverlay: true
+attributes: {
+  heat: 1
+}

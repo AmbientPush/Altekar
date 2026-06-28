@@ -1,0 +1,18 @@
+//Borane + Brine → [Borane Reactor] → Power (+ Salt? Steam?)
+type: AdvancedConsumeGenerator
+size: 2
+category: power
+requirements: [
+  iron/25
+  ionic-copper/40
+  tetra-c/45
+  steel/20
+]
+consumes: {
+  liquids: [
+    brine/0.5
+    borane/0.25
+  ]
+}
+outputLiquid: deuterium/0.75
+outputItem: boric-acid/1

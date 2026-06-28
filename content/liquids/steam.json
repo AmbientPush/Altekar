@@ -1,4 +1,4 @@
-color: FFFFFF //TODO
+color: D5E6F7FF
 
 explosiveness: 0
 flammability: 0
@@ -8,4 +8,4 @@ temperature: 0.75
 blockReactive: false
 gas: true
 
-research: core-shard
+research: brine

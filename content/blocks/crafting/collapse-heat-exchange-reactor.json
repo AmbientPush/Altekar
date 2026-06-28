@@ -1,0 +1,23 @@
+//thermal-transfer-reactor-salt.json
+//heat-exchange-reactor.json
+type: GenericCrafter
+consumes: {
+  items: [
+    tesseract/1
+    salt/10
+  ]
+}
+outputItem: dormant-tesseract/1
+outputLiquid: molten-salt/1
+requirements: [
+  iron/100
+  ionic-copper/50
+  tetra-c/65
+  steel/30
+  bloodwood/20
+]
+size: 3
+/*A lot of salt + the Ultracube => Dormant Ultracube and a lot of molten salt
+Molten salt + a lot of Brine => Salt (from molten salt AND from Brine)(byproduct) + steam
+Steam => power (steam turbines)*/
+category: crafting

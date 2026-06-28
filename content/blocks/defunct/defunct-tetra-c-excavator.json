@@ -1,0 +1,27 @@
+type: AttributeCrafter
+size: 4
+health: 250
+category: production
+squareSprite: false
+attribute: tetra-c-floor
+baseEfficiency: 0
+minEfficiency: 0.001
+boostScale: 0.125
+outputItems: [
+  tetra-c/4
+]
+craftTime: 60
+consume: {
+  liquids: {
+    liquids: [
+      steam/2.5
+    ]
+    optional: false
+    booster: false
+  }
+}
+requirements: [
+  iron/250
+  ionic-copper/140
+  steel/70
+]

@@ -1,0 +1,17 @@
+type: GenericCrafter
+size: 3
+consumes: {
+  liquids: [
+    molten-salt/0.5
+    brine/5
+  ]
+}
+outputLiquid: steam/5
+outputItem: salt/7.5
+requirements: [
+  iron/40
+  ionic-copper/35
+  tetra-c/20
+  steel/20
+]
+category: crafting

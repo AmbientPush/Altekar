@@ -1,0 +1,6 @@
+name: "Unstable Leakage"
+color: "#32cd32"
+healthMultiplier: 0.9
+damageMultiplier: 1.15
+damage: 1
+effect: oily

@@ -1,0 +1,52 @@
+type: GenericCrafter
+size: 2
+category: crafting
+squareSprite: false
+consumes: {
+  liquids: [
+    brine/0.25
+    borane/0.25
+  ]
+  items: [
+    iron/3
+    tetra-c/1
+  ]
+}
+outputItems: [
+  steel/4
+]
+requirements: [
+  iron/20
+  ionic-copper/35
+  tetra-c/20
+]
+craftTime: 120
+
+drawer: [
+  {
+    type: DrawRegion
+    suffix: -bottom
+  }
+  {
+    type: DrawRegion
+    suffix: -rotator
+    spinSprite: false
+    rotateSpeed: 0.5
+  }
+  {
+    type: DrawLiquidRegion
+    drawLiquid: brine
+    liquid: brine
+    suffix: -liquid
+  }
+  {
+    type: DrawLiquidRegion
+    drawLiquid: borane
+    liquid: borane
+    suffix: -liquid
+  }
+  {
+    type: DrawDefault
+  }
+]
+hasLiquids: true

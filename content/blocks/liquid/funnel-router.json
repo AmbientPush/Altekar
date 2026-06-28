@@ -1,0 +1,12 @@
+//og sprite by cy4, edited by Ambient
+type: LiquidRouter
+liquidCapacity: 30
+category: liquid
+squareSprite: false
+research: funnel-junction
+requirements: [
+  iron/6
+]
+researchCost: [
+  iron/10
+]

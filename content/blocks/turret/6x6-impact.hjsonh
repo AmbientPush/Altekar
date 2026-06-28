@@ -1,0 +1,63 @@
+{
+  type: PowerTurret
+  name: railgun
+  localizedName: "Railgun"
+
+  size: 6
+  shootY: 0
+
+  // Stats
+  health: 2400
+  armor: 8
+  range: 640
+  rotateSpeed: 1.5
+  reload: 180
+  cooldownTime: 180
+  shootCone: 8
+
+  // Requirements
+  requirements: [
+    copper/200
+    silicon/80
+  ]
+
+  // Consumes
+  consumes: {
+    liquid: {
+      liquid: compressed-plasma
+      liquid: substance
+      amount: 2.5
+    }
+    power: 18
+  }
+
+  // Bullet
+  shoot: {
+    type: ShootPattern
+    shots: 1
+  }
+
+  shootType: {
+    type: LaserBulletType
+
+    length: 640
+    width: 3.2
+    pierceArmor: true
+    pierceCap: -1  // unlimited pierce
+
+    damage: 520
+    buildingDamageMultiplier: 1.8
+
+    // Trail
+    colors: ["ffffff", "a0e0ff", "4090cc", "00000000"]
+    hitEffect: hitBulletBig
+    despawnEffect: none
+
+    // Knockback
+    knockback: 6.0
+  }
+
+  // Visuals
+  outlineColor: "2d2d2d"
+  shootSound: railgun
+}

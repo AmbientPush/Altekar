@@ -1,0 +1,6 @@
+type: Floor
+variants: 6
+liquidDrop: brine
+liquidMultiplier: 0.5
+isLiquid: true
+cacheLayer: water

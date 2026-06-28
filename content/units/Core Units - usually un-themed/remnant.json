@@ -1,0 +1,92 @@
+//TODO might delete?
+
+type: flying
+flying: true
+coreUnitDock: true
+controller: BuilderAI
+coreFleeRange: 500
+faceTarget: true
+//targetPriority: -2
+targetAir: false
+/*commands: [
+  rebuild
+  mine
+]*/
+health: 120
+armor: 2
+speed: 4
+mineWalls: true
+mineFloor: true
+isEnemy: true
+hittable: true
+targetable: true
+mineSpeed: 3
+mineTier: 1
+buildSpeed: 0.5
+accel: 0.2
+drag: 0.15
+lowAltitude: true
+groundLayer: 40
+shadowElevation: 0.1
+rotateSpeed: 10
+itemCapacity: 50
+outlineColor: 26262f  //TODO
+//waveTrailY: -3.0
+//trailColor: d8f18c
+//trailLength: 12
+fogRadius: 4
+wreckSoundVolume: 0.7
+deathSoundVolume: 0.7
+
+
+engines: [
+  {
+    x: 0
+    y: -6
+    radius: 3.5
+    rotation: -90
+  }
+]
+
+
+weapons: [
+  {
+    type: Weapon
+    reload: 600
+    y: 0
+    x: 0
+    shootX: 6  //TODO check these
+    shootY: 6
+    mirror: false
+    reload: 45
+    name: remnant-unit-cannon
+    top: false
+    bullet: {
+      type: BasicBulletType
+      lifetime: 35
+      speed: 5
+      damage: 0
+      fragBullets: 1
+      fragRandomSpread: 0
+      fragSpread: 0
+      fragAngle: 0
+      fragBullet: {
+        type: EmptyBulletType
+        damage: 0
+        despawnSound: none
+        width: 0
+        length: 0
+        spawnUnit: remnant-support-drone
+      }
+    }
+  }
+]
+/*research: {
+  parent: 0016-unit
+  objectives: [
+    {
+      type: OnSector
+      preset: 19s-01-newgrounds
+    }
+  ]
+}*/

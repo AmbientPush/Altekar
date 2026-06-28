@@ -1,0 +1,6 @@
+name: "Plasmatic Overcharge"
+color: "#ff00ff"
+reloadMultiplier: 1.3
+damageMultiplier: 1.4
+healthMultiplier: 0.7
+effect: melting

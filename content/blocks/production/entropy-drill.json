@@ -1,0 +1,51 @@
+type: BurstDrill
+size: 5
+health: 1200
+hardnessDrillMultiplier: 1
+category: production
+research: {
+  parent: core-shard
+  objectives: [
+  ]
+}
+hasLiquids: true
+drillTime: 180
+/*drillEffect: {
+  type: MultiEffect
+  effects: [
+  {
+    type: particleEffect
+    particles: 12
+    length: 10
+    lifetime: 40
+    interp: circleOut
+    sizeInterp: pow5In
+    sizeFrom: 2.2 
+    sizeTo: 0.1
+    region: exoprosopa-spark-drill
+  }
+  {
+    type: WaveEffect
+    sizeFrom: 0.1
+    sizeTo: 24
+    strokeFrom: 2
+    strokeTo: 0.1
+    colorFrom: f5c2fa
+    colorTo: ad6767
+    lifetime: 16
+  }
+ ]
+}*/
+tier: 5
+squareSprite: false
+fogRadius: 4
+itemCapacity: 40
+researchCost: [
+  
+]
+consumes: {
+  liquid: entropy/0.1
+}
+requirements: [
+  iron/15
+]

@@ -1,0 +1,15 @@
+type: BuildTurret
+size: 2
+requirements: [
+  iron/300
+  ionic-copper/250
+  tetra-c/120
+  steel/120
+  bloodwood/25
+]
+category: effect
+consumes: {
+  liquids: [
+    phoenix-ichor/0.5
+  ]
+}

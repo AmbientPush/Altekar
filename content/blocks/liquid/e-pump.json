@@ -1,0 +1,28 @@
+type: Pump
+size: 3
+category: liquid
+squareSprite: false
+fogRadius: 2
+requirements: [
+  iron/30
+  ionic-copper/25
+  tetra-c/15
+]
+hasPower: true
+
+pumpAmount: 0.166666667
+consumes: {
+  power: 0.5
+  liquidFlammable: {
+    minFlammability: -1000
+    amount: 0
+    optional: true
+  }
+}
+
+research: core-shard
+researchCost: [
+  copper/1
+]
+
+conductivePower: true

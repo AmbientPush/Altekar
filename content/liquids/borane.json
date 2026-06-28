@@ -1,0 +1,11 @@
+color: 63DB0DFF
+
+explosiveness: 1
+flammability: 1
+heatCapacity: 0
+viscosity: 0.2
+temperature: 0.5
+blockReactive: false
+gas: true
+
+research: substance

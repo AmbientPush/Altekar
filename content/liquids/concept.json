@@ -1,0 +1,11 @@
+color: E87A20FF
+
+explosiveness: 1
+flammability: 0.75
+heatCapacity: 0
+viscosity: 0.5
+temperature: 0.8
+blockReactive: false
+gas: true
+
+research: core-shard

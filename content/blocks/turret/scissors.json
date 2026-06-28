@@ -1,0 +1,136 @@
+type: ItemTurret
+size: 3
+consumes: {
+  liquid: substance/0.25
+}
+reload: 32
+//shootWarmupSpeed: 2
+targetInterval: 3
+range: 480
+shake: 3
+targetGround: true
+shoot: {
+  type: ShootAlternate
+  spread: 4.5
+}
+shootY: 19.75
+recoils: 2
+ammoTypes: {
+  iron: {
+    type: BasicBulletType
+    pierceCap: 5
+    pierce: true
+    pierceBuilding: false
+    pierceArmor: true
+    knockback: 2
+    speed: 24
+    lifetime: 20
+    maxRange: 480
+    damage: 150
+    width: 8
+    height: 24
+    collidesGround: true
+    frontColor: EEF5FCFF
+    backColor: 444666FF
+    shootEffect: [
+      {
+        type: RadialEffect
+        rotationSpacing: 40
+        rotationOffset: 340
+        amount: 2
+        effect: {
+          type: ParticleEffect
+          colorFrom: FFFFFFFF
+          colorTo: FFFFFFFF
+          cone: 2
+          interp: exp10Out
+          lenFrom: 0
+          lenTo: 12
+          line: true
+          particles: 2
+          sizeFrom: 8
+          sizeTo: 2
+        }
+      }
+      {
+        type: ParticleEffect
+        colorFrom: FFFFFFFF
+        colorTo: FFFFFFFF
+        cone: 2
+        interp: exp10Out
+        lenFrom: 0
+        lenTo: 24
+        line: true
+        particles: 2
+        sizeFrom: 8
+        sizeTo: 2
+        offset: 0
+      }
+    ]
+  }
+}
+
+recoil: 2
+outlineRadius: 0
+drawer: {
+  type: DrawMulti
+  iconOverride: [
+    -icon
+  ]
+  drawers: [
+/*    {
+      type: DrawRegion
+    }*/
+    {
+      type: DrawTurret
+      basePrefix: scissors-
+      parts: [
+        {
+          suffix: -body
+          layer: 55.1
+          turretHeatLayer: 55.15
+        }
+        /*{
+          suffix: -body2
+          moveY: 0
+          progress: warmup
+          layer: 55.0
+          turretHeatLayer: 55.05
+        }*/
+        {
+          suffix: -barrel-l
+          moveY: -1
+          progress: recoil
+          recoilIndex: 0
+          layer: 54.9
+          turretHeatLayer: 54.95
+        }
+        {
+          suffix: -barrel-r
+          moveY: -1
+          progress: recoil
+          recoilIndex: 1
+          layer: 54.9
+          turretHeatLayer: 54.95
+        }
+        {
+          suffix: -wing-l
+          moveRot: 15
+          moveX: 0
+          moveY: -0.5
+        }
+        {
+          suffix: -wing-r
+          moveRot: -15
+          moveX: 0
+          moveY: -0.5
+        }
+      ]
+    }
+  ]
+}
+
+
+requirements: [
+  iron/250
+]

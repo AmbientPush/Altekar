@@ -1,0 +1,19 @@
+type: GenericCrafter
+size: 2
+health: 120
+category: crafting
+squareSprite: false
+requirements: [
+  defunct-material/20
+]
+craftTime: 120
+craftEffect: none
+outputItems: [
+  ionic-copper/1
+]
+consumes: {
+  liquid: substance/0.1
+  power: 0.25
+}
+outputLiquid: dormant-substance/0.1
+liquidOutputDirections: [ 1 ]

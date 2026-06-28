@@ -1,0 +1,6 @@
+name: "Shattered Armor"
+color: "8899aa"
+healthMultiplier: 0.85
+speedMultiplier: 0.95
+damage: 0.08
+effect: hitLancer

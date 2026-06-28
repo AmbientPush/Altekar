@@ -1,0 +1,40 @@
+type: flying
+flying: true
+controller: BuilderAI
+//targetPriority: -2
+/*commands: [
+  rebuild
+  mine
+]*/
+health: 20
+armor: 0
+speed: 2
+mineWalls: true
+mineFloor: true
+isEnemy: true
+hittable: true
+targetable: true
+mineSpeed: 3
+mineTier: 1
+buildSpeed: 0.25
+accel: 0.15
+drag: 0.12
+lowAltitude: true
+groundLayer: 40
+shadowElevation: 0.1
+rotateSpeed: 10
+itemCapacity: 0
+outlineColor: 26262f  //TODO
+fogRadius: 4
+wreckSoundVolume: 0.7
+deathSoundVolume: 0.7
+
+
+engines: [
+  {
+    x: 0
+    y: -6
+    radius: 3.5
+    rotation: -90
+  }
+]

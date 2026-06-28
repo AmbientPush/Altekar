@@ -1,0 +1,31 @@
+type: ConsumeGenerator
+consumes: {
+  items: [
+    salt/1
+  ]
+  liquids: [
+    dormant-substance/0.25
+  ]
+}
+powerProduction: 1.5
+health: 160
+size: 2
+hasLiquids: true
+requirements: [
+  iron/20
+  ionic-copper/12
+  tetra-c/20
+]
+category: power
+
+drawer: [
+  {
+    type: DrawDefault
+  }
+  {
+    type: DrawLiquidRegion
+    drawLiquid: dormant-substance
+    liquid: dormant-substance
+    suffix: -dormant-substance
+  }
+]

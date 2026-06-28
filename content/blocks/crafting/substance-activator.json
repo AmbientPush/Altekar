@@ -1,0 +1,16 @@
+type: GenericCrafter
+size: 2
+health: 160
+consumes: {
+  liquids: [
+    dormant-substance/1
+    brine/0.5
+  ]
+}
+requirements: [
+  iron/35
+  ionic-copper/25
+  tetra-c/12
+]
+outputLiquid: substance/1
+outputItem: salt/1

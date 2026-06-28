@@ -1,0 +1,51 @@
+type: flying
+flying: true
+health: 650
+armor: 3
+speed: 3.1
+accel: 0.08
+drag: 0.04
+mineSpeed: 6.5
+mineTier: 2
+buildSpeed: 1.5
+itemCapacity: 60
+hitSize: 12
+
+weapons: [
+  {
+    reload: 90
+    range: 280
+    bullet: {
+      speed: 11.2
+      lifetime: 25
+      splashDamage: 25
+      splashDamageRadius: 192
+      scaledSplashDamage: true
+      status: "none" //TODO stunned
+      statusDuration: 6
+    }
+  }
+  {
+    reload: 12
+    range: 960
+    bullet: {
+      damage: 12
+      length: 960
+      colors: [6600cc,bb44ff,ffffff]
+      width: 12
+      status: "none" //TODO destabilised
+      statusDuration: 120
+    }
+  }
+]
+
+abilities: [
+  {
+    type: StatusFieldAbility
+    effect: "swifty" //TODO frequence-tuned
+    //TODO finish
+    range: 160
+    reload: 60
+    duration: 180
+  }
+]

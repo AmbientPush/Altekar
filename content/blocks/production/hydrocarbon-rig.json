@@ -1,0 +1,20 @@
+type: AttributeCrafter
+size: 3
+health: 145
+category: production
+squareSprite: false
+attribute: hydrocarbon
+baseEfficiency: 0
+minEfficiency: 0.001
+boostScale: 0.1111111111
+outputLiquid: hydrocarbon/1
+craftTime: 60
+consume: {
+  power: 1
+  liquid: brine/1
+}
+requirements: [
+  iron/250
+  ionic-copper/140
+  steel/70
+]

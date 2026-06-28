@@ -1,0 +1,8 @@
+type: Junction
+speed: 5
+category: distribution
+isDuct: true
+health: 45
+requirements: [ iron/2 ]
+researchCost: [ iron/8 ]
+research: shaft

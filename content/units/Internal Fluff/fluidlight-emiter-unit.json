@@ -1,0 +1,40 @@
+type: missile
+template: MissileUnitType
+controller: MinerAI
+defaultController: MinerAI
+fullOverride: clear
+outlines: false
+hitSize: 1
+lifetime: 210
+health: 1
+speed: 8
+drag: 0.04
+engineSize: 0
+drawBody: false
+drawCell: false
+drawShields: false
+abilities: [
+  {
+    type: ForceFieldAbility
+    radius: 45
+    regen: 0
+    max: 1200
+    cooldown: 100
+  }
+  {
+    type: ShieldRegenFieldAbility
+    reload: 1
+    amount: 1200
+    max: 1200
+    range: 0
+    applyEffect: none
+    activeEffect: none
+  }
+]
+createWreck: false
+createScorch: false
+deathSound: none
+deathExplosionEffect: none
+envEnabled: -1
+envDisabled: 0
+shadowRegion: blank

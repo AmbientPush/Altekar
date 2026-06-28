@@ -1,0 +1,49 @@
+type: GenericCrafter
+size: 2
+health: 120
+category: crafting
+squareSprite: false
+requirements: [
+  iron/15
+  ionic-copper/10
+]
+craftTime: 60
+craftEffect: none
+outputItems: [
+  tetra-c/2
+]
+consumes: {
+  liquid: substance/0.1
+  power: 0.25
+}
+outputLiquid: dormant-substance/0.1
+liquidOutputDirections: [ 1 ]
+
+drawer: [
+  {
+    type: DrawDefault
+  }
+  {
+    type: DrawLiquidRegion
+    drawLiquid: substance
+    liquid: substance
+    suffix: -substance
+  }
+  {
+    type: DrawLiquidRegion
+    drawLiquid: dormant-substance
+    liquid: dormant-substance
+    suffix: -dormant-substance
+  }
+  {
+    type: DrawSideRegion
+  }
+  {
+    type: DrawRegion
+    suffix: -glass
+  }
+]
+rotate: true
+quickRotate: true
+rotateDraw: false
+hasLiquids: true

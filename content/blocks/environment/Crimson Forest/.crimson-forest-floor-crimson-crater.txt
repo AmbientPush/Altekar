@@ -1,0 +1,4 @@
+type: SteamVent
+variants: 2
+parent: crimson-forest-floor-2d
+blendGroup: crimson-forest-floor-2d

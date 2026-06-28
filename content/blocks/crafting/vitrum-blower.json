@@ -1,0 +1,16 @@
+type: HeatCrafter
+heatRequirement: 3
+maxEfficiency: 2
+size: 2
+category: crafting
+squareSprite: false
+consumes: {
+  items: silica/3
+}
+outputItem: vitrum/2
+
+requirements: [
+  iron/25
+  tetra-c/15
+  steel/6
+]

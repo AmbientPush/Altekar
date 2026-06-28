@@ -1,0 +1,103 @@
+type: flying
+flying: true
+name: Orbit Pacer
+health: 3200
+armor: 2
+speed: 8
+accel: 0.08
+drag: 0.09
+rotateSpeed: 2.2
+hitSize: 36
+
+
+abilities: [
+  {
+    type: ShieldArcAbility
+    radius: 60
+    regen: 12
+    max: 900
+    cooldown: 720
+    angleOffset: 180
+    angle: 120
+    width: 4
+    drawArc: true
+    whenShooting: false
+  }
+]
+
+
+parts: [
+  {
+    type: RegionPart
+    name: altekar-shield-in2-half
+    outline: false
+    blending: additive
+    color: 7382F088
+    layer: 93
+    xScl: 1
+    yScl: 1
+//    drawRegion: false
+    size: 60
+    rotation: 180
+  }
+]
+
+
+weapons: [
+  {
+    name: orbit-pacer-railcannon
+    reload: 60
+    x: 0
+    y: 6
+    rotate: false
+    shootY: 0
+    inaccuracy: 0
+    range: 480
+    recoil: 4
+    bullet: {
+      type: RailBulletType
+      damage: 840
+      speed: 0
+      length: 480
+      pierce: true
+      pierceCap: 4
+      lifetime: 4
+      width: 2.2
+      length: 480
+      knockback: 3
+      pointEffect: disperseTrail
+      recoil: 12
+    }
+  }
+  {
+    //the engine bs
+    reload: 12
+    x: 0
+    y: 0
+    rotate: false
+    mirror: false
+    baseRotation: 180
+    shootCone: 181
+    shoot: {
+      type: ShootSpread
+      spread: 15
+      shots: 8
+      shotDelay: 0
+    }
+    shootY: 0
+    bullet: {
+      type: LaserBulletType
+      speed: 0
+      lifetime: 10
+      damage: 95
+      width: 4
+      length: 60
+      pierceCap: 2
+      status: gravitic-overflow
+      statusDuration: 30
+      knockback: 2
+      hitSize: 2
+      pierceDamageFactor: 1.2
+    }
+  }
+]

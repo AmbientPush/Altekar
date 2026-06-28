@@ -1,13 +1,13 @@
 name: altekar
 displayName: Altekar
-author: "Owner: Ambient Push and CY4NIDE"
+author: "Owner: Ambient Push\nSome sprites: cy4"
 description: No idea lol
-version: 0
-minGameVersion: 154
+version: 1
+minGameVersion: 157
 subtitle: null
 repo: AmbientPush/Altekar
 dependencies: [
-  "hjsonpp"
+//  "hjsonpp"
 ]
 
 

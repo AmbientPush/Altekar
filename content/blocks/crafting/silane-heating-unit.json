@@ -1,0 +1,23 @@
+type: HeatCrafter
+heatRequirement: 6
+maxEfficiency: 2
+health: 170
+size: 2
+hasLiquids: true
+outputLiquid: deuterium/0.5
+outputItem: silica/1
+consumes: {
+  power: 0.25
+  items: [
+    silane-canister/2
+  ]
+}
+craftTime: 60
+requirements: [
+  iron/35
+  ionic-copper/20
+  tetra-c/15
+  steel/12
+]
+category: crafting
+squareSprite: false

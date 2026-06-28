@@ -1,0 +1,9 @@
+type: Duct
+category: distribution
+speed: 5
+health: 45
+bridgeReplacement: shaft-overpass
+junctionReplacement: shaft-junction
+requirements: [ iron/1 ]
+researchCost: [ iron/10 ]
+research: core-shard

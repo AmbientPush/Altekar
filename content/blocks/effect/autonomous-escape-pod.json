@@ -1,0 +1,11 @@
+//main sprite based on cy4's sprite
+type: CoreBlock
+squareSprite: false
+requirements: [
+  defunct-material/250
+]
+size: 2
+unitCapModifier: 2
+landDuration: 60
+unitType: remnant
+health: 250

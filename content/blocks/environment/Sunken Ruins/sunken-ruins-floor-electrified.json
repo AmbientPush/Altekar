@@ -1,0 +1,7 @@
+type: Floor
+variants: 1
+attributes: {
+  electrified: 1
+  heat: 2.5
+}
+blendGroup: sunken-ruins-floor

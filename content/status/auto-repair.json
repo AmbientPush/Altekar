@@ -1,0 +1,8 @@
+name: "Auto-Repair"
+color: "88ffaa"
+damage: -3
+healthMultiplier: 1.1
+speedMultiplier: 0.95
+buildSpeedMultiplier: 0.7
+disarmed: true
+effect: healWave

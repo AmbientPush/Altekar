@@ -1,0 +1,7 @@
+type: TiledFloor
+maxSize: 2
+variants: 2
+/*sizedRegions: [
+  broken-metal-floor-plates11, broken-metal-floor-plates12
+  broken-metal-floor-plates21
+]*/

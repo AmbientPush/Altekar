@@ -1,0 +1,8 @@
+name: "Plasmatic Burn"
+color: "cc77ff"
+damage: 0.48
+speedMultiplier: 0.75
+reloadMultiplier: 1.2
+damageMultiplier: 1.1
+effect: hitFlamePlasma
+opposites: [wet]

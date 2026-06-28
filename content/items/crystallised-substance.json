@@ -1,0 +1,9 @@
+flammability: 0
+explosiveness: 0.75
+radioactivity: 0
+charge: 0
+hardness: 3
+color: 999B98FF
+alwaysUnlocked: false
+research: substance
+cost: 20

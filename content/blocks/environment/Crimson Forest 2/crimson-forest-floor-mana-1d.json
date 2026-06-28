@@ -1,0 +1,6 @@
+type: Floor
+variants: 5
+attributes: {
+  mana: 1
+  heat: 0.5
+}

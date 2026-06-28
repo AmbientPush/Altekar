@@ -1,0 +1,25 @@
+type: WallCrafter
+health: 250
+size: 2
+category: production
+research: {
+  parent: core-shard
+  objectives: [
+  ]
+}
+consumes: {
+  power: 0.166666666666
+}
+requirements: [
+  iron/15
+]
+researchCost: [
+  iron/10
+]
+drillTime: 90
+output: iron
+attribute: iron
+ambientSound: loopDrill
+ambientSoundVolume: 0.04
+fogRadius: 2
+squareSprite: false

@@ -1,0 +1,34 @@
+type: HeatConductor
+health: 250
+size: 2
+category: crafting
+//research: 
+requirements: [
+  steel/24
+  bloodwood/12
+]
+regionRotated1: 1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawHeatOutput
+      rotOffset: -1
+    }
+    {
+      type: DrawHeatOutput
+    }
+    {
+      type: DrawHeatOutput
+      rotOffset: 1
+    }
+    {
+      type: DrawHeatInput
+      suffix: -heat
+    }
+  ]
+}
+splitHeat: true

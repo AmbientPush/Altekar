@@ -1,0 +1,20 @@
+weapons: [
+  {
+    shoot: {
+      type: ShootPattern
+      shotDelay: 3
+      shots: 3
+    }
+    reload: 30
+    bullet: {
+      type: BasicBulletType
+      weaveMag: 2
+      weaveScale: 0.3
+      weaveRandom: true
+//      rotateSpeed: 0.1
+      lifetime: 60
+      speed: 3.5
+      updateEffect: none
+    }
+  }
+]

@@ -1,0 +1,25 @@
+type: GenericCrafter
+size: 2
+category: crafting
+consumes: {
+  liquids: {
+    liquids: [
+      substance/0.5
+      dormant-substance/0.5
+      concept/0.5
+      entropy/0.25
+    ]
+    optional: true
+    booster: false
+  }
+}
+outputLiquids: [
+  substance/0
+  dormant-substance/0
+  concept/0
+  entropy/0
+]
+requirements: [
+  iron/15
+  ionic-copper/12
+]

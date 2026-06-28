@@ -1,0 +1,27 @@
+type: AttributeCrafter
+size: 3
+health: 145
+category: production
+squareSprite: false
+attribute: silica-floor
+baseEfficiency: 0
+minEfficiency: 0.001
+boostScale: 0.1111111111
+outputItems: [
+  silica/2
+]
+craftTime: 60
+consume: {
+  liquids: {
+    liquids: [
+      steam/1
+    ]
+    optional: false
+    booster: false
+  }
+}
+requirements: [
+  iron/250
+  ionic-copper/140
+  steel/70
+]

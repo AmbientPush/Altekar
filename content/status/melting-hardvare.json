@@ -1,0 +1,6 @@
+name: "Melted Hardware"
+color: "#ff8800"
+speedMultiplier: 0.15
+disarm: true
+healthMultiplier: 0.8
+effect: melting

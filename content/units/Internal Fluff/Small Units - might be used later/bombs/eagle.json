@@ -1,0 +1,17 @@
+//Small Exploding Drone
+type: flying
+flying: true
+speed: 3
+accel: 0.4
+drag: 0.3
+weapons: [
+  {
+    type: Weapon
+    ShootOnDeath: true
+    bullet: {
+      type: ExplosionBulletType
+      damage: 20
+      killShooter: true
+    }
+  }
+]

@@ -1,0 +1,21 @@
+type: ConsumeGenerator
+size: 3
+health: 365
+category: power
+squareSprite: false
+requirements: [
+  iron/150
+]
+hasLiquids: true
+consumes: {
+  liquids: [
+    concept/1
+    azane/0.5
+  ]
+}
+outputLiquid: substance/1.5
+liquidOutputDirections: [1]
+powerProduction: 2
+//generateEffect: generatespark
+research: core-shard
+liquidCapacity: 60

@@ -1,0 +1,15 @@
+type: GenericCrafter
+size: 4
+health: 230
+consumes: {
+  items: [
+    dormant-tesseract/1
+  ]
+  liquid: substance/0.5
+}
+craftTime: 150
+outputItem: tesseract/1
+requirements: [
+  copper/1
+]
+category: crafting

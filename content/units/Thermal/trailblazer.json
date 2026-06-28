@@ -1,0 +1,195 @@
+type: mech
+hovering: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.075
+outlineColor: "26262f"  //TODO
+speed: 1.75
+rotateSpeed: 4.5
+accel: 0.1
+groundLayer: 60
+health: 650
+armor: 1
+hitSize: 8
+itemCapacity: 0
+useEngineElevation: false
+lowAltitude: false
+canDrown: false
+moveSound: loopExtract
+moveSoundVolume: 0.15
+moveSoundPitchMin: 0.5
+moveSoundPitchMax: 1.2
+parts: [
+  {
+    type: HoverPart
+    x: 4
+    y: 3
+    mirror: true
+    radius: 4
+    phase: 90
+    stroke: 2
+    layerOffset: -0.001
+    color: d8f18c
+  }
+  {
+    type: HoverPart
+    x: 4
+    y: -4
+    mirror: true
+    radius: 4
+    phase: 90
+    stroke: 2
+    layerOffset: -0.001
+    color: d8f18c
+  }
+]
+abilities: [
+  {
+    type: MoveEffectAbility
+    effect: missileTrailShort
+    minVelocity: 0.1
+    teamColor: true
+    effectParam: 3
+    interval: 3
+    x: 0
+    y: -4
+  }
+]
+weapons: [
+/*  {
+    shoot: {
+      type: ShootMulti
+      source: {
+        type: ShootPattern
+        shots: 3
+        shotDelay: 10
+      }
+      dest: [
+        {
+          type: ShootMulti
+          source: {
+            type: ShootHelix
+            shots: 1
+            offset: 3
+            mag: 0
+            scl: 0
+            shotDelay: 10
+          }
+          dest: [
+            {
+              type: ShootSpread
+              spread: 15
+              shots: 4
+              shotDelay: 0
+            }
+          ]
+        }
+      ]
+    }
+    x: 0
+    y: 1
+    name: codex-weapon
+    reload: 120
+    rotate: true
+    mirror: false
+    shootSound: shootElectric
+    shootSoundVolume: 0.3
+    rotateSpeed: 2.5
+    bullet: {
+      type: BasicBulletType
+      damage: 13.25
+      pierce: false
+      pierceBuilding: false
+      backColor: e9c574
+      frontColor: e9c574
+      speed: 3
+      weaveScale: 1.5
+      weaveMag: 6
+      weaveRandom: true
+    }
+  }*/
+  //HOLY FUCK (stollen from Allure)
+  {
+    x: 78
+    y: 46.5
+    rotate: true
+    autoTarget: true
+    controllable: false
+    useAttackRange: false
+    baseRotation: -90
+    rotationLimit: 180
+    targetInterval: 20
+    targetSwitchInterval: 60
+    alternate: false
+    rotateSpeed: 360
+    shootCone: 0.25
+    continuous: true
+    alwaysContinuous: true
+    shootSound: loopSmelter
+    shootSoundVolume: 0.5
+    initialShootSound: explosionArtilleryShockBig
+    bullet: {
+      type: ContinuousLaserBulletType
+      shake: 0
+      length: 480
+      width: 1
+      damage: 20
+      lifetime: 20
+      pierceCap: 1
+      statusDuration: 2
+      colors: [
+        7382f088,
+        ffffff
+      ]
+      layer: 93
+      oscScl: 0
+      frontLength: 2
+      shootEffect: none
+      smokeEffect: none
+      hitEffect: [
+        {
+          line: true
+          length: 0
+          offset: 90
+          cone: 0
+//          region: 
+          particles: 1
+          lifetime: 25
+          colorTo: 90a2fc
+          sizeFrom: 20
+          sizeTo: 0
+        }
+        {
+          baseRotation: 180
+          line: true
+          particles: 4
+          cone: 45
+          length: -20
+          lifetime: 20
+          interp: pow2Out
+          sizeInterp: linear
+          lenFrom: 4
+          lenTo: 2
+          strokeFrom: 1
+          strokeTo: 0
+          colorTo: 7382f0
+        }
+      ]
+    }
+  }
+]
+trailColor: d8f18c
+trailLength: 12
+/*research: {
+  parent: 0010-fabricator
+  objectives: [
+    {
+      type: Research
+      content: 10j-02-unitconstructor-ship
+    }
+  ]
+}
+researchCostMultiplier: 1
+*/

@@ -6,8 +6,16 @@ consumes: {
     dormant-tesseract/1
   ]
   power: 0.5
+  liquids: [
+    substance/0.25
+  ]
 }
 outputItem: tesseract/1
 requirements: [
-  synthesised-iron/35
+  iron/35
+  ionic-copper/80
+  tetra-c/60
 ]
+category: crafting
+outputLiquid: dormant-substance/0.2
+liquidOutputDirections: [0]

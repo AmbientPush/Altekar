@@ -1,0 +1,7 @@
+name: "Defense Focus"
+color: "7799ff"
+healthMultiplier: 1.5
+speedMultiplier: 0.75
+buildSpeedMultiplier: 0.85
+disarmed: true
+effect: shieldWave

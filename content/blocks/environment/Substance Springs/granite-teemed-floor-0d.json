@@ -1,0 +1,6 @@
+type: Floor
+variants: 1
+attributes: {
+  substance: 0.25
+  heat: 0.1
+}

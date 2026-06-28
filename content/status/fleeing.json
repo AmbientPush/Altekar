@@ -1,0 +1,6 @@
+name: "Fleeing"
+color: "ffaa88"
+speedMultiplier: 1.85
+healthMultiplier: 0.65
+disarmed: true
+effect: smoke

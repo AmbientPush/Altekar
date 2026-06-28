@@ -1,0 +1,56 @@
+type: MultiCrafter
+//name: Tier 1 Extruder
+description: graph prod gug
+size: 3
+category: crafting
+//TODO maybe DELETE?
+
+hasItems: true
+hasPower: true
+squareSprite: false
+itemCapacity: 20
+autoSelectRecipe: true
+autoSelectRecipe: false
+
+jsonRecipes: [
+  {
+    name: graph1
+    input: {
+      items: [
+        coal/10
+      ]
+    }
+    output: {
+      items: [
+        graphite/5
+      ]
+    }
+    craftTime: 120
+    unlocked: true
+    weight: 1
+  }
+  {
+    name: graph2
+    input: {
+      items: [
+        coal/15
+      ]
+      liquids: [
+        water/0.5
+      ]
+    }
+    output: {
+      items: [
+        graphite/10
+      ]
+    }
+    craftTime: 120
+    unlocked: true
+    weight: 2
+  }
+]
+
+
+requirements: [
+  copper/20
+]

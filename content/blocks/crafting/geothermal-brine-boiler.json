@@ -1,0 +1,22 @@
+//brine + Heat tiles => Steam + salt
+type: AttributeCrafter
+size: 3
+category: crafting
+squareSprite: false
+consumes: {
+  liquid: brine/1
+}
+baseEfficiency: 0
+minEfficiency: 0.01
+boostScale: 0.1111111111111
+attribute: heat
+craftTime: 120
+outputLiquid: steam/1
+outputItem: salt/0.5
+requirements: [
+  iron/40
+  ionic-copper/12
+  tetra-c/25
+  steel/15
+  bloodwood/20
+]

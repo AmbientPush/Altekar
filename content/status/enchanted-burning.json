@@ -1,0 +1,6 @@
+name: "Enchanted Burning"
+color: "#ff4500"
+damageMultiplier: 1.25
+healthMultiplier: 0.9
+damage: 0.42
+effect: burning

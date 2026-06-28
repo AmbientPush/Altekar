@@ -1,0 +1,11 @@
+type: ConsumeGenerator
+consume: [
+  liquid: steam/0.5
+]
+powerProduction: 1
+category: power
+requirements: [
+  iron/20
+  ionic-copper/45
+  tetra-c/15
+]

@@ -1,0 +1,9 @@
+//sprites by cy4
+type: Conduit
+category: liquid
+requirements: [
+  iron/2
+]
+junctionReplacement: funnel-junction
+rotBridgeReplacement: funnel-overpass
+leaks: false

@@ -1,0 +1,22 @@
+type: AttributeCrafter
+size: 2
+category: crafting
+squareSprite: false
+consumes: {
+  liquid: substance/0.25
+}
+outputLiquids: [
+  dormant-substance/0.25
+  borane/0.5
+]
+liquidOutputDirections: [1,3]
+requirements: [
+  iron/15
+  ionic-copper/25
+  tetra-c/20
+  steel/10
+]
+attribute: kernite
+baseEfficiency: 0
+minEfficiency: 0.01
+boostScale: 0.25

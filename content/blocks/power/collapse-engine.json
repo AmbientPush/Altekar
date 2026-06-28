@@ -1,10 +1,13 @@
-type: AdvancedHeaterGenerator
+//type: AdvancedHeaterGenerator
+type: HeaterGenerator
 health: 150
 //TODO - uhhhhh?????
 size: 2
 category: power
 requirements: [
-  synthesised-iron/25
+  iron/25
+  ionic-copper/35
+  tetra-c/40
 ]
 
 outputItems: [

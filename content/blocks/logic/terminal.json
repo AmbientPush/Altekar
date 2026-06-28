@@ -2,8 +2,14 @@ type: LogicBlock
 category: logic
 research: core-shard
 requirements: [
-  copper/150
+  iron/150
+  ionic-copper/120
+  tetra-c/130
 ]
 instructionsPerTick: 10
 size: 2
-health: 600
+health: 95
+consumes: {
+  liquid: substance/0.25
+}
+squareSprite: false

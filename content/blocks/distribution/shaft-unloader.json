@@ -1,0 +1,9 @@
+type: DirectionalUnloader
+requirements: [
+  iron/10
+  ionic-copper/5
+  steel/4
+  silica/12
+]
+health: 45
+research: shaft-overpass

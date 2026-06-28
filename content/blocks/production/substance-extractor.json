@@ -8,10 +8,26 @@ baseEfficiency: 0
 minEfficiency: 0.5
 boostScale: 0.25
 outputLiquid: substance/0.5
-craftTime: 150
+craftTime: 60
 consume: {
   power: 0.2
 }
 requirements: [
-  synthesised-iron/12
+  iron/12
+  ionic-copper/15
+  tetra-c/3
 ]
+
+drawer: [
+  {
+    type: DrawDefault
+  }
+  {
+    type: DrawLiquidRegion
+    drawLiquid: substance
+    liquid: substance
+    suffix: -substance
+  }
+]
+hasLiquids: true
+hasPower: true

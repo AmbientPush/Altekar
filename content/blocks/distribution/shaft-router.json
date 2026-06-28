@@ -1,0 +1,8 @@
+type: DuctRouter
+speed: 3
+category: distribution
+isDuct: true
+research: shaft-junction
+health: 45
+requirements: [ iron/3 ]
+researchCost: [ iron/15 ]

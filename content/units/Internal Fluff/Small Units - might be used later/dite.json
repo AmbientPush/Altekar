@@ -1,0 +1,30 @@
+type: legs
+legCount: 4
+health: 260
+speed: 1.9
+accel: 0.1
+drag: 0.12
+hitSize: 9
+//legCount: 4
+legLength: 9
+legBaseOffset: 3
+legMoveSpace: 1.2
+legTrns: 0.6
+
+weapons: [
+  {
+    x: 0
+    y: 3
+    shootY: 0
+    reload: 20
+    rotate: false
+    bullet: {
+      type: BasicBulletType
+      damage: 18
+      speed: 4.5
+      lifetime: 35
+      width: 6
+      height: 9
+    }
+  }
+]
