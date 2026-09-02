@@ -1,6 +1,6 @@
 type: SeaBush
 customShadow: true
-lobesMin: 8
+lobesMin: 6
 lobesMax: 10
 timeRange: 50
 sclMin: 35
